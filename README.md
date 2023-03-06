@@ -1,8 +1,4 @@
-# setup-r
-
-![Grades](https://github.com/ag-classrooms/autograding-r/actions/workflows/classroom.yml/badge.svg)
-
-This repository works as a template for setting up Github Classroom assignments with autograding capabilities. It still has lots of opportunities for improvement. 
+# Project
 
 ## Configuration
 
