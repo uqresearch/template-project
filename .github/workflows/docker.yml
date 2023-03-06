@@ -40,6 +40,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/aprendizaje:notas
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{secrets.DOCKER_IMAGE}}:${{secrets.DOCKER_TAG}}
           cache-from: type=gha
           cache-to: type=gha,mode=max           
